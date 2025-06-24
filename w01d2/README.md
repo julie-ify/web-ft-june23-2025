@@ -1,25 +1,25 @@
-## W01D2 - The Development Workflow
+## W01D2 - The Dev Workflow
 
 ### Lecture Outline
 
-- [ ] Intro
-- [ ] Writing code incrementally
-- [ ] Problem solving tips
-- [ ] Review git workflow
+- [x] Intro
+- [x] Writing code incrementally
+- [x] Problem solving tips
+- [x] Review git workflow
 
 ### Remote Lecture Format
 
 - Lectures are conducted on Zoom and recorded.
 - Please turn on your camera to stay engaged.
-- Ask me questions at anytime during the lecture.
+- Use Alt + Y to raise your hand
 - Mute when not speaking.
-- You can also drop a qustion in the message box.
+- Drop a quation in the message box too
 
 ### Lecture Goals
 
 - Build effective problem-solving skills
-- Understand and apply a developement workflow
-- Use Git and GitHub for version control for solo projects
+- Understand and apply a developer workflow
+- Use Git and GitHub for version control
 - Learn and practice incremental development
 - Do not copy/paste along blindly.
 - You’re welcome to take notes, it helps retain and organize knowledge!
@@ -49,11 +49,40 @@ A web development workflow is the organized process developers follow to plan, b
 ### Problem Solving Tips
 
 - Understand the Problem
+
+  - Clarify requirements.
+  - Rephrase the problem in your own words.
+
 - Break the Problem Down
+
+  - Divide into small, manageable parts
+  - Write pseudocode (plain English logic) if you prefer.
+
 - Incremental Development
+
+  - Work one small step at a time.
+  - Test each part as you build.
+  - Use Node REPL for experimentation
+
 - Debugging with Errors
+
+  - Let errors guide your progress.
+  - Check for syntax or runtime errors.
+  - Use `console.log()` for insight into what's happening.
+  - Learn to read and Google error messages effectively.
+  - Chrome DevTools: `chrome://inspect`
+
 - Ask for Help
+
+  - Use the 15-minute rule. (If you’ve been stuck on a problem for 15 minutes and haven’t made progress, it’s time to ask for help.)
+  - Google > StackOverflow > MDN Docs > W3S > Mentors
+  - Ask thoughtful questions.
+
 - Fix or Improve Code Cleanliness
+  - Apply bug fixes or refactor.
+  - Use proper formatting and indentation.
+  - Don't copy/paste type and understand
+  - Avoid unnecessary repetition.
 
 ```js
 // BAD // no indentation
@@ -116,7 +145,7 @@ git commit -m "Meaningful commit message"
 ```
 
 > Use short but meaningful commit messages like:
-> `Add function that sum command-line arguments`, `Add error handling to login`, etc.
+> `Fix bug in printArray`, `Add error handling to login`, etc.
 
 - Push to GitHub:
 
@@ -145,5 +174,4 @@ git remote add origin <repo-url>
 
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [Node Documentation](https://nodejs.org/docs/latest/api/)
-- [Python Tutor](https://pythontutor.com/javascript.html#mode=edit)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

@@ -4,14 +4,13 @@
 // Understand the problem
 
 // 1. take in an unlimited number of args
-// how to remove an element from an array
 const args = process.argv;
+// how to remove an element from an array
 // args.shift()
 // args.shift()
 
 const copy = args.slice(2);
 
-// [1, 2, 3] = 6
 // 2. prints out the sum of them
 
 // c-style loop
@@ -24,22 +23,17 @@ const copy = args.slice(2);
 // 	console.log(copy[id])
 // }
 
-// for-of
+// for-of loop
 let sum = 0;
 
 for (let arg of copy) {
   const number = Number(arg);
 
-  // 3. If any argument is not a whole number
+  // 3. If any argument is not a whole number, skip it
+  // 4. Do not support negative numbers
   if (Number.isInteger(number) && number >= 0) {
-    // Do not support negative numbers
     sum += number;
   }
 }
 
 console.log(sum);
-// undefined123
-
-// 2. print out the sum of them
-// 3. skip any number that is not a whole number
-// 4. skip any negative number
